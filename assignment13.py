@@ -7,5 +7,7 @@ tp2=tp[5:]
 print tp1
 print tp2
 
-"""Output"""
+"""Output
+(1, 2, 3, 4, 5)
+(6, 7, 8, 9, 10)"""
 
