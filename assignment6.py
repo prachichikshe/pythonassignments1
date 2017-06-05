@@ -13,3 +13,11 @@ by=int(cdy-Age)
 print 'Your Bday year is %d'%by
 by1=int(by+100)
 print 'Your age will be 100 years by %d'%by1
+
+
+#Output
+#Enter your Name:prachi
+#Enter your Age:23
+#Hi prachi ,Your present Age is 23
+#Your Bday year is 1994
+#Your age will be 100 years by 2094
