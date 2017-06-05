@@ -1,6 +1,0 @@
-vi first.py
-import os,sys
-os.mkdir("pragya")
-os.chdir("pragya")or ("tina")
-os.system("touch file1")
-os.system ("ls")
