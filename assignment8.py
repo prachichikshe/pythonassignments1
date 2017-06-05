@@ -13,3 +13,8 @@ A=input('Enter the first number')
 B=input('Enter the second number')
 
 print (str(max(A,B)) + ' is larger')
+
+#Output
+#Enter the first number 56
+#Enter the second number 89
+#89 is larger
