@@ -3,4 +3,6 @@ s=raw_input("Enter the string to be reversed")
 s = s[::-1]
 print s
 
-"""Output"""
+"""Output
+Enter the string to be reversed prachi chikshe
+ehskihc ihcarp """
