@@ -14,3 +14,8 @@ for c in s:
         pass
 print "LETTERS", d["LETTERS"]
 print "DIGITS", d["DIGITS"]
+
+"""Output
+Enter the Sentence prachi 5678
+LETTERS 6
+DIGITS 4"""
