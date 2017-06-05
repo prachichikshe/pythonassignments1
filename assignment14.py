@@ -2,4 +2,6 @@
 s = raw_input("Enter the ASCII Value")
 u = unicode( s ,"utf-8")
 print u
-"""Output"""
+"""Output
+Enter the ASCII Value567
+567"""
