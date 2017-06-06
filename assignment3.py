@@ -1,3 +1,4 @@
+
 # Question 3:Write a python standalone program a. insert some values [eg. employee details]in db tab b. fetch the same data and print it on standard output.c. update specific employee info.d. delete specific employee and all the info. 
 
 import sqlite3 
@@ -70,4 +71,28 @@ cursor.execute ("SELECT FIRST_NAME, LAST_NAME, AGE, SEX ,INCOME from EMPLOYEE1 "
     print "INCOME= ", row[4],"\n" 
 print "Records distroy successfully"; 
 conn.close()
+
+'''output
+[root@prachi pythonassignments1]# python assignment3.py 
+Opened database successfully
+table create successfully
+Records insertsuccessfully
+FIRST_NAME =  prachi
+LAST_NAME =  Chikshe
+AGE =  24SEX =  female
+INCOME=  20000.0
+ Operation done successfully
+FIRST_NAME =  prachi
+LAST_NAME =  Chikshe
+AGE =  24
+SEX =  female
+NCOME=  25000.0 
+Records update successfully
+Records insertsuccessfully
+FIRST_NAME =  tina
+LAST_NAME =  agrawal
+AGE =  22
+SEX =  female
+INCOME=  26000.0 
+Records distroy successfully'''
 
