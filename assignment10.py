@@ -1,4 +1,4 @@
-#10.Define a function that computes the length of a given list or string.(prachi)
+#10.Define a function that computes the length of a given list or string.
 def countStringLength(inputString):
  #DocString
 count=0
@@ -9,4 +9,6 @@ print ("Function to find the length of the input String")
 s=raw_input(print("Enter the string"))
 countStringLength(inputString)
 
-"""Output"""
+"""Output
+Enter the string prachi
+Length of the String is 6 """
