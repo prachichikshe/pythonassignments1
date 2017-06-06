@@ -1,0 +1,33 @@
+#Q 3c. fetch the same data and print it on standard output.
+import sqlite3
+
+# Open database connection
+db = sqlite3.connect("dbdemo.db" )
+
+# prepare a cursor object using cursor() method
+cursor = db.cursor()
+
+sql = "SELECT * FROM EMPLOYEE \
+       WHERE INCOME > '%d'" % (1000)
+try:
+   # Execute the SQL command
+   cursor.execute(sql)
+   # Fetch all the rows in a list of lists.
+   results = cursor.fetchall()
+   for row in results:
+      fname = row[0]
+      lname = row[1]
+      age = row[2]
+      sex = row[3]
+      income = row[4]
+      # Now print fetched result
+      print "fname=%s,lname=%s,age=%d,sex=%s,income=%d" % \
+             (fname, lname, age, sex, income )
+except:
+   print "Error: unable to fecth data"
+
+# disconnect from server
+db.close()
+
+'''Output
+fname=Mac,lname=Mohan,age=20,sex=M,income=2000
