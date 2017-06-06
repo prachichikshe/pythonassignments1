@@ -6,7 +6,7 @@ for i in inputString:
   count=count+1
 print ("Length of the String is " +str(count))
 print ("Function to find the length of the input String")
-s=input(print("Enter the string"))
+s=raw_input(print("Enter the string"))
 countStringLength(inputString)
 
 """Output"""
