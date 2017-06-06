@@ -30,4 +30,4 @@ except:
 db.close()
 
 '''Output
-fname=Mac,lname=Mohan,age=20,sex=M,income=2000
+fname=Mac,lname=Mohan,age=20,sex=M,income=2000'''
